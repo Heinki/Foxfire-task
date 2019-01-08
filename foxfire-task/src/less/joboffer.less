@@ -1,0 +1,34 @@
+.joboffer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  .item {
+    flex-basis: 0;
+    flex-grow: 1;
+  }
+}
+
+.joboffer-description {
+  p {
+    text-align: left;
+  }
+
+  ul {
+    text-align: left;
+  }
+}
+
+.job-border {
+  border-bottom: 1px solid grey;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+
+  &:first-child {
+    border-top: 1px solid grey;
+  }
+
+  h3 {
+    cursor: pointer;
+  }
+}
